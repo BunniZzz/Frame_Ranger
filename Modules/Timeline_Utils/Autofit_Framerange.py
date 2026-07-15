@@ -259,7 +259,7 @@ def register():
 
 
 
-    bpy.types.TIME_MT_editor_menus.append(draw_item_keyframe)
+    # bpy.types.TIME_MT_editor_menus.append(draw_item_keyframe)
     bpy.types.DOPESHEET_MT_editor_menus.append(draw_item_keyframe)
     bpy.types.GRAPH_MT_editor_menus.append(draw_item_keyframe)
     bpy.types.NLA_MT_editor_menus.append(draw_item_keyframe)
@@ -283,7 +283,7 @@ def unregister():
     bpy.app.handlers.load_post.remove(load_setting)
 
 
-    bpy.types.TIME_MT_editor_menus.remove(draw_item_keyframe)
+    # bpy.types.TIME_MT_editor_menus.remove(draw_item_keyframe)
     bpy.types.DOPESHEET_MT_editor_menus.remove(draw_item_keyframe)
     bpy.types.GRAPH_MT_editor_menus.remove(draw_item_keyframe)
     bpy.types.NLA_MT_editor_menus.remove(draw_item_keyframe)

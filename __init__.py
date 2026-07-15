@@ -1,6 +1,6 @@
 bl_info = {
     "name": "Frame Ranger",
-    "author": "BlenderBoi",
+    "author": "BlenderBoi, BunniZzz",
     "version": (3, 1, 1),
     "blender": (3, 1, 0),
     "description": "Utilities for Frame related operations",
